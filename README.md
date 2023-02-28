@@ -2,7 +2,7 @@
 
 Submitted by: **Mohamed Abdilahi**
 
-**Red-Haire** is an app that introduces the legendary Red-Haired Shanks, feared and powerful pirate in the One Piece world with nations under his cotrol 
+**Red-Haired Shanks** is an app that introduces the legendary Red-Haired Shanks, feared and powerful pirate in the One Piece world with nations under his cotrol 
 
 Time spent: **10** hours spent in total
 
