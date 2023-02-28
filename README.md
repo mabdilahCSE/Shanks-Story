@@ -1,10 +1,10 @@
-# Project 1 - *Name of App Here*
+# Project 1 - *Red-Haired Shanks*
 
-Submitted by: **Your Name Here**
+Submitted by: **Mohamed Abdilahi**
 
-**Name of your app** is an app that introduces ... [TODO] 
+**Name of your app** is an app that introduces the legendary Red-Haired Shanks, feared and powerful pirate in the One Piece world with nations under his cotrol 
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 ## Required Features
 
