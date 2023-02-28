@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PZf-vQ-ois">
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RedHairShanksStory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="PYJ-TA-eCh">
+                                <rect key="frame" x="115" y="307" width="200" height="318"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Shanks" translatesAutoresizingMaskIntoConstraints="NO" id="t76-rc-jg6">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="LSZ-K8-Y8A"/>
+                                            <constraint firstAttribute="height" constant="200" id="sYt-SZ-xRr"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oeB-ik-Rxx" userLabel="whoButton">
+                                        <rect key="frame" x="28" y="205" width="144" height="34.333333333333343"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="144" id="7NJ-wG-5qm"/>
+                                            <constraint firstAttribute="height" constant="34.329999999999998" id="cPf-bL-fpR"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Who am I?"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="Uvb-gu-Jc0" appends="YES" id="7Wo-hu-6yL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8J-Wb-wwz" userLabel="rightButton">
+                                        <rect key="frame" x="25.666666666666657" y="244.3333333333334" width="149" height="34.333333333333343"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34.329999999999998" id="AVZ-wk-ArX"/>
+                                            <constraint firstAttribute="width" constant="149" id="MwS-g3-AoB"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Right-Hand Man"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="KX4-B8-c1f" appends="YES" id="lyF-28-eio"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iDz-Fd-grb" userLabel="foeButton">
+                                        <rect key="frame" x="39" y="283.66666666666663" width="122" height="34.333333333333314"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="122" id="pxS-uh-aX9"/>
+                                            <constraint firstAttribute="height" constant="34.329999999999998" id="y8f-vz-mGf"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Greatest Foe"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="HKO-ER-p7w" appends="YES" id="Iw1-M8-HVj"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="S8J-Wb-wwz" firstAttribute="top" secondItem="oeB-ik-Rxx" secondAttribute="bottom" constant="5" id="r2F-5M-SKa"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="PYJ-TA-eCh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QYv-yK-nIh"/>
+                            <constraint firstItem="PYJ-TA-eCh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="txE-X4-q41"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="Red-Haired Shanks" id="Sty-A7-00L"/>
+                    <connections>
+                        <outlet property="foeButton" destination="iDz-Fd-grb" id="5N7-5K-Tsp"/>
+                        <outlet property="rightButton" destination="S8J-Wb-wwz" id="Euc-Hf-tzD"/>
+                        <outlet property="whoButton" destination="oeB-ik-Rxx" id="w2o-IX-0XX"/>
+                        <segue destination="U1u-rr-MHC" kind="show" identifier="whoSegue" id="xur-1R-n5C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Uvb-gu-Jc0">
+                    <connections>
+                        <action selector="didtapButton:" destination="BYZ-38-t0r" id="f2J-Kn-C1S"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="KX4-B8-c1f">
+                    <connections>
+                        <action selector="didtapButton:" destination="BYZ-38-t0r" id="GHe-XZ-vTb"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="HKO-ER-p7w">
+                    <connections>
+                        <action selector="didtapButton:" destination="BYZ-38-t0r" id="JuW-2n-cIg"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="972.55813953488371" y="-2.5751072961373391"/>
+        </scene>
+        <!--Who View Controller-->
+        <scene sceneID="I5z-7g-zV0">
+            <objects>
+                <viewController id="U1u-rr-MHC" customClass="WhoViewController" customModule="RedHairShanksStory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FTs-FN-qu5">
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="21" translatesAutoresizingMaskIntoConstraints="NO" id="1nO-4n-vwt">
+                                <rect key="frame" x="20" y="322" width="390" height="288"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="aff-d7-CwQ" userLabel="story_image">
+                                        <rect key="frame" x="95" y="0.0" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="6Mq-7h-xyM"/>
+                                            <constraint firstAttribute="width" constant="200" id="C4v-L8-c9n"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="por-YS-Atn" userLabel="story_label">
+                                        <rect key="frame" x="0.0" y="221" width="390" height="67"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="390" id="iRh-eR-wJF"/>
+                                            <constraint firstAttribute="height" constant="67" id="mRD-v5-hWB"/>
+                                        </constraints>
+                                        <string key="text" base64-UTF8="YES">
+Cg
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="owT-0a-AK8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1nO-4n-vwt" firstAttribute="centerX" secondItem="FTs-FN-qu5" secondAttribute="centerX" id="5Oh-A2-eQu"/>
+                            <constraint firstItem="1nO-4n-vwt" firstAttribute="centerY" secondItem="FTs-FN-qu5" secondAttribute="centerY" id="l15-KN-DlS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9cr-aR-soS"/>
+                    <connections>
+                        <outlet property="StoryImage" destination="aff-d7-CwQ" id="sWe-Uk-CdI"/>
+                        <outlet property="StoryLabel" destination="por-YS-Atn" id="Db2-3Y-Xhr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KeH-1d-i3C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1971.6279069767443" y="11.587982832618026"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="6Qg-7z-sEu">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PZf-vQ-ois" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rkt-G3-Fc1">
+                        <rect key="frame" x="0.0" y="59" width="430" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="tmT-hl-9ex"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XS3-NC-dYI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.564885496183201" y="-2.1126760563380285"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Shanks" width="1024" height="1024"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
