@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-link to gif 
+link to gif -> https://submissions.us-east-1.linodeobjects.com/ios102/K-jZCNM1.gif
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LICEcap
